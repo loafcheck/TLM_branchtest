@@ -40,8 +40,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 - git push --set-upstream origin a 
 
-
--------------------------------------------------------------
+### Classnote
+-------------
 
 ##### $ git branch // 브랜치 목록 확인
 ##### $ git branch a
