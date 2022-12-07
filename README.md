@@ -1,16 +1,15 @@
+- [sample](https://github.com/loafcheck/branchtest/blob/sample/sample.txt)
+- [classnote](##Classnote)
+- [branchtest](#branchtest)
+- [upstream_description_img](#Image)
 
--[보이는용](https://www.google.com/)
 
-
-- [1](#1)
-- [1_1](#1-1)
  
-# 1 
+<!-- # 1 
  
 ## 1-1
-----
-
-# branchtest / clone
+# branchtest
+##### git clone practice -->
 
 - 터미널 창 열기 </br>
 - github에서 repository 생성 -> code https 복사하기 (To clone the repository using HTTPS, under "HTTPS", click .)
@@ -55,7 +54,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 <br/>
 <br/>
 
-### Classnote
+## Classnote
 -------------
 
 ##### $ git branch // 브랜치 목록 확인
@@ -66,3 +65,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 ##### (a) $ git add .
 ##### (a) $ git commit -m "a1"
 ##### (a) $ git push --set-upstream origin a (branch 처음 땄을 때)
+
+# Image
+
+![clone](https://user-images.githubusercontent.com/106638262/206226817-fdca39a0-cf5c-4903-ac48-35b2c9d01301.jpg)
+
