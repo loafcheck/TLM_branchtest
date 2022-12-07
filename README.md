@@ -1,6 +1,7 @@
 - [sample](https://github.com/loafcheck/branchtest/blob/sample/sample.txt)
 - [classnote](##Classnote)
 - [branchtest](#branchtest)
+- [upstreamimg] (#Image)
 
 
  
@@ -65,5 +66,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ##### (a) $ git commit -m "a1"
 ##### (a) $ git push --set-upstream origin a (branch 처음 땄을 때)
 
-![Screen Shot 2022-12-08 at 12 42 15 AM](https://user-images.githubusercontent.com/106638262/206224074-a3e9a9a8-ffe1-4e17-aec8-af098556982e.png)
+# Image
+
+![clone](https://user-images.githubusercontent.com/106638262/206226817-fdca39a0-cf5c-4903-ac48-35b2c9d01301.jpg)
 
