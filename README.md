@@ -1,4 +1,33 @@
-# branchtest
+# branchtest #clone
+
+- 터미널 창 열기 
+- github에서 repository 생성 -> code https 복사하기 (To clone the repository using HTTPS, under "HTTPS", click .)
+
+> 터미널 다시 돌아오기
+
+--먼저 터미널 초기 위치 확인하기/ 바탕화면으로 오기 --
+- git clone https주소값복사
+예시) rachelskim@MacBook-Air ~ % git clone https://github.com/loafcheck/branchtest.git 
+- cd 파일명
+예시) rachelskim@MacBook-Air ~ % cd branchtest
+- git branch // 브랜치 목록 확인
+- git branch a
+- git checkout a // git switch a 와 같다.
+- echo '#hello world a'>> 'hello1.txt'  // 리눅스 명령어 # hello world a 를 써서  hello1.txt 파일 만드세요~
+예시)rachelskim@MacBook-Air branchtest % echo '#hello world a'>> 'hello1.txt'
+- git status //현재 내용 확인 가능
+예시) 
+rachelskim@MacBook-Air branchtest % git status
+On branch a
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	hello1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+- git add . 
+- git commit -m "a1"
+- git push --set-upstream origin a 
+
 
 
 
