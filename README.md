@@ -1,6 +1,6 @@
 - [sample](https://github.com/loafcheck/branchtest/blob/sample/sample.txt)
 - [classnote](##Classnote)
-- [how to clone] (#branchtest/clone)
+- [how to clone] (#branchtest-git-clone-practice)
 
 
 -[보이는용](https://www.google.com/)
@@ -13,7 +13,7 @@
  
 ## 1-1
 
-# branchtest / clone
+# branchtest-git-clone-practice
 
 - 터미널 창 열기 </br>
 - github에서 repository 생성 -> code https 복사하기 (To clone the repository using HTTPS, under "HTTPS", click .)
