@@ -1,5 +1,6 @@
 #Last login: Wed Dec  7 22:11:44 on console
 
+📍로컬에서 작업환경 위치 확인하기. 바탕화면 Git 폴더에서 작업할 예정입니다. 
 rachelskim@MacBook-Air ~ % ls
 Applications
 Desktop
@@ -12,8 +13,10 @@ Pictures
 Postman
 Public
 
+📍바탕화면 Git폴더로 들어오기 
 rachelskim@MacBook-Air Desktop % cd Git
 
+📍작업할 git을 복제하기 
 rachelskim@MacBook-Air Git % git clone https://github.com/loafcheck/branchtest.git
 Cloning into branchtest...
 remote: Enumerating objects: 42, done.
@@ -23,6 +26,7 @@ remote: Total 42 (delta 11), reused 3 (delta 0), pack-reused 0
 Receiving objects: 100% (42/42), 9.60 KiB | 61.00 KiB/s, done.
 Resolving deltas: 100% (11/11), done.
 
+📍clone된 폴더로 이동
 rachelskim@MacBook-Air Git % cd branchtest
 
 rachelskim@MacBook-Air branchtest % git branch
@@ -58,7 +62,7 @@ Switched to branch test1
 rachelskim@MacBook-Air branchtest % echo #hello world test1 >> hello2.txt
 
 
-📍깃에 더해준다
+📍깃에 더해준다 / 📍폴더 전체를 올리고 싶을 경우: git add . / 📍특정 파일을 올리고 싶을 경우: git add hello2.txt
 rachelskim@MacBook-Air branchtest % git add hello2.txt
 
 📍commit할 준비가 되었는지 status 확인
