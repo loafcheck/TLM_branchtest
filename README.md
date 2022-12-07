@@ -1,6 +1,6 @@
 - [sample](https://github.com/loafcheck/branchtest/blob/sample/sample.txt)
 - [classnote](##Classnote)
-- [branchtest](#branchtest)
+- [branchtest](# git clone practice)
 
 
 -[보이는용](https://www.google.com/)
