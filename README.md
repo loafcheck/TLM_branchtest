@@ -1,3 +1,18 @@
+- [sample](https://github.com/loafcheck/branchtest/blob/sample/sample.txt)
+- [classnote](##Classnote)
+- [how to clone] (#branchtest/clone)
+
+
+-[보이는용](https://www.google.com/)
+
+
+- [1](#1)
+- [1_1](#1-1)
+ 
+# 1 
+ 
+## 1-1
+
 # branchtest / clone
 
 - 터미널 창 열기 </br>
@@ -43,7 +58,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 <br/>
 <br/>
 
-### Classnote
+## Classnote
 -------------
 
 ##### $ git branch // 브랜치 목록 확인
@@ -54,3 +69,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 ##### (a) $ git add .
 ##### (a) $ git commit -m "a1"
 ##### (a) $ git push --set-upstream origin a (branch 처음 땄을 때)
+
+![Screen Shot 2022-12-08 at 12 42 15 AM](https://user-images.githubusercontent.com/106638262/206224074-a3e9a9a8-ffe1-4e17-aec8-af098556982e.png)
+
