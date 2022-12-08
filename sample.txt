@@ -1,0 +1,126 @@
+#Last login: Wed Dec  7 22:11:44 on console
+rachelskim@MacBook-Air ~ % ls
+Applications
+Creative Cloud Files
+Creative Cloud Files kdhh@jnu.ac.kr 2e46331d89bf073e59bb57c6aaa8a08c2ce75fc5f6314cb7f9c8be6f0a4ce345
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Postman
+Public
+Sites
+conflicttest
+iCloud Drive (Archive)
+therachelskim@gmail.com Creative Cloud Files
+rachelskim@MacBook-Air ~ % cd Desktop
+rachelskim@MacBook-Air Desktop % ls
+030
+11월 24일 목요일
+APPRENTICESHIP
+Algorithm
+Git
+KEYMAN
+React App.html
+React App_files
+Screen Recording 2022-11-14 at 2.09.54 PM.mov
+Screen Recording 2022-11-14 at 2.10.34 PM.mov
+Screen Recording 2022-11-25 at 3.32.18 PM.mov
+Screen Recording 2022-11-25 at 5.08.41 PM.mov
+Screen Shot 2022-10-12 at 9.01.50 AM.png
+Screen Shot 2022-12-06 at 11.12.44 PM.png
+Screen Shot 2022-12-07 at 1.18.20 AM.png
+Screen Shot 2022-12-07 at 1.40.30 PM.png
+Screen Shot 2022-12-07 at 1.40.41 PM.png
+Screen Shot 2022-12-07 at 10.53.21 PM.png
+Screen Shot 2022-12-07 at 10.53.40 PM.png
+Screen Shot 2022-12-07 at 2.44.37 PM.png
+Screen Shot 2022-12-07 at 2.48.58 PM.png
+Screen Shot 2022-12-07 at 3.21.19 PM.png
+Screen Shot 2022-12-07 at 3.24.37 PM.png
+Screen Shot 2022-12-07 at 3.40.12 PM.png
+TDD
+TodoReact
+Visual Studio Code.app
+c9b8e8cd2a359e0ba756c56c4404c074.jpeg
+react
+react-apple
+zoom background.png
+감귤마켓
+기초반
+데브원
+코딩애플
+rachelskim@MacBook-Air Desktop % cd Git
+rachelskim@MacBook-Air Git % git clone https://github.com/loafcheck/branchtest.git
+Cloning into branchtest...
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 42 (delta 11), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (42/42), 9.60 KiB | 61.00 KiB/s, done.
+Resolving deltas: 100% (11/11), done.
+rachelskim@MacBook-Air Git % cd branchtest
+rachelskim@MacBook-Air branchtest % git branch
+* main
+rachelskim@MacBook-Air branchtest % git branch -r
+📍리모트 즉 깃허브에 있는 브랜치 확인 커맨드
+  origin/HEAD -> origin/main
+  origin/a
+  origin/main
+rachelskim@MacBook-Air branchtest % git branch test1
+rachelskim@MacBook-Air branchtest % git branch
+📍로컬 즉 내컴퓨터에 있는 브랜치 확인 커맨드
+* main
+  test1
+rachelskim@MacBook-Air branchtest % git branch -r
+  origin/HEAD -> origin/main
+  origin/a
+  origin/main
+rachelskim@MacBook-Air branchtest % echo #hello world b >> hello2.txt
+rachelskim@MacBook-Air branchtest % git checkout test1
+Switched to branch test1
+rachelskim@MacBook-Air branchtest % echo #hello world test1 >> hello2.txt
+rachelskim@MacBook-Air branchtest % git add hello2.txt
+rachelskim@MacBook-Air branchtest % git status
+On branch test1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   hello2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+rachelskim@MacBook-Air branchtest % git commit -m "branch test"
+[test1 95e0653] branch test
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello2.txt
+rachelskim@MacBook-Air branchtest % git push                      
+fatal: The current branch test1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin test1
+
+To have this happen automatically for branches without a tracking
+upstream, see push.autoSetupRemote in git help config.
+
+rachelskim@MacBook-Air branchtest % git push --set-upstream origin test1
+Username for https://github.com: rachelskim
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for test1 on GitHub by visiting:
+remote:      https://github.com/loafcheck/branchtest/pull/new/test1
+remote: 
+To https://github.com/loafcheck/branchtest.git
+ * [new branch]      test1 -> test1
+branch test1 set up to track origin/test1.
+rachelskim@MacBook-Air branchtest % 
+ 
