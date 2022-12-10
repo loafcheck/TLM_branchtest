@@ -51,6 +51,11 @@ rachelskim@MacBook-Air branchtest % git branch -r
   origin/a
   origin/main
  
+혹은
+📍 바로 브랜치 생김
+git checkout -b develop
+Switched to a new branch 'develop'
+ 
 📍echo '#새롭게 작성하고자 하는 코드' >> '특정.txt' 
 rachelskim@MacBook-Air branchtest % echo '#hello world b' >> 'hello2.txt'
 
